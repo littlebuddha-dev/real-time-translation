@@ -1,0 +1,18 @@
+# path: ./requirements.txt
+# title: Python dependencies for ollama_whisper_new.py
+# description: Lists the required Python packages for the real-time transcription and translation script.
+
+# Core processing libraries
+numpy<2.0
+torch
+torchaudio
+faster-whisper
+
+# Voice Activity Detection (VAD)
+webrtcvad
+
+# Audio input/output
+sounddevice
+
+# Asynchronous HTTP client for Ollama API
+aiohttp
